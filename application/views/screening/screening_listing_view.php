@@ -107,7 +107,7 @@
                                             <th data-hide="phone">Phone No</th>
                                             <th data-hide="phone">Age</th>
                                             <th data-hide="phone,tablet">Screening Date</th>
-                                            <th data-hide="phone,tablet">Result</th>
+                                            <th data-hide="phone,tablet">Type of Cancer</th>
                                         </tr>
                                     </thead>
 
@@ -118,7 +118,7 @@
                                             <td>0728109780</td>
                                             <td>61</td>
                                             <td>2014/12/12</td>
-                                            <td>Malignant</td>
+                                            <td>Cervical</td>
                                         </tr>
                                         <tr>
                                             <td>CP/0560/201107</td>
@@ -126,7 +126,7 @@
                                             <td>0721124780</td>
                                             <td>63</td>
                                             <td>2011/07/25</td>
-                                            <td>Stage 1</td>
+                                            <td>Oral</td>
                                         </tr>
                                         <tr>
                                             <td>CP/0078/201401</td>
@@ -134,7 +134,7 @@
                                             <td>0722167473</td>
                                             <td>66</td>
                                             <td>2014/01/12</td>
-                                            <td>Stage 2</td>
+                                            <td>Cervical</td>
                                         </tr>
                                         <tr>
                                             <td>CP/0840/201203</td>
@@ -142,7 +142,7 @@
                                             <td>0725189780</td>
                                             <td>22</td>
                                             <td>2012/03/29</td>
-                                            <td>Malignant</td>
+                                            <td>Retinoblastoma</td>
                                         </tr>
                                         <tr>
                                             <td>CP/4782/200811</td>
@@ -150,7 +150,7 @@
                                             <td>0733084578</td>
                                             <td>33</td>
                                             <td>2008/11/28</td>
-                                            <td>Stage 1</td>
+                                            <td>Breast</td>
                                         </tr>
                                         <tr>
                                             <td>CP/7884/201212</td>
@@ -158,7 +158,7 @@
                                             <td>0734895218</td>
                                             <td>61</td>
                                             <td>2012/12/02</td>
-                                            <td>Stage 3</td>
+                                            <td>Prostate</td>
                                         </tr>
                                     </tbody>
                             
