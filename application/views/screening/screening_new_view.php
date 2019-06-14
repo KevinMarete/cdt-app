@@ -134,8 +134,11 @@
                                                             <div class="form-group">
                                                                 <div class="input-group">
                                                                     <span class="input-group-addon"><i class="fa fa-envelope fa-md fa-fw"></i></span>
-                                                                    <input class="form-control input-md" placeholder="Sex" type="text" name="email" id="email">
-        
+                                                                    <select class="form-control input-md" name="sex" id="sex" required>
+                                                                        <option value=" ">Select Gender</option>
+                                                                        <option value="male">Male</option>
+                                                                        <option value="female">Female</option>
+                                                                    </select>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -755,7 +758,7 @@
                                                                     <td><textarea></textarea></td>
                                                                     <td><textarea></textarea></td>
                                                                 </tr>
-                                                                <tr>
+                                                                <tr class="prostate_row">
                                                                     <td>Prostate</td>
                                                                     <td>
                                                                         <div class="checkbox">
@@ -854,6 +857,102 @@
                                                                     <td><textarea></textarea></td>
                                                                     <td><textarea></textarea></td>
                                                                 </tr>
+                                                                <tr>
+                                                                    <td>Oral</td>
+                                                                    <td>
+                                                                        <div class="checkbox">
+                                                                            <label>
+                                                                            <input type="checkbox" class="checkbox style-0">
+                                                                            <span>Initial screening</span>
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label>
+                                                                            <input type="checkbox" class="checkbox style-0">
+                                                                            <span>Repeat screening</span>
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label>
+                                                                            <input type="checkbox" class="checkbox style-0">
+                                                                            <span>Post-treatment screening</span>
+                                                                            </label>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="checkbox">
+                                                                            <label>
+                                                                            <input type="checkbox" class="checkbox style-0">
+                                                                            <span>Visual Screening</span>
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label>
+                                                                            <input type="checkbox" class="checkbox style-0">
+                                                                            <span>Imaging</span>
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label>
+                                                                            <input type="checkbox" class="checkbox style-0">
+                                                                            <span>Exfoliative Cytology</span>
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label>
+                                                                            <input type="checkbox" class="checkbox style-0">
+                                                                            <span>Incision biopsy</span>
+                                                                            </label>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td><textarea></textarea></td>
+                                                                    <td><textarea></textarea></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Oesophageal</td>
+                                                                    <td>
+                                                                        <div class="checkbox">
+                                                                            <label>
+                                                                            <input type="checkbox" class="checkbox style-0">
+                                                                            <span>Initial screening</span>
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label>
+                                                                            <input type="checkbox" class="checkbox style-0">
+                                                                            <span>Repeat screening</span>
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label>
+                                                                            <input type="checkbox" class="checkbox style-0">
+                                                                            <span>Post-treatment screening</span>
+                                                                            </label>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="checkbox">
+                                                                            <label>
+                                                                            <input type="checkbox" class="checkbox style-0">
+                                                                            <span>White Light Endoscopy</span>
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label>
+                                                                            <input type="checkbox" class="checkbox style-0">
+                                                                            <span>Lugol’s chromoendoscopy</span>
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="checkbox">
+                                                                            <label>
+                                                                            <input type="checkbox" class="checkbox style-0">
+                                                                            <span>Narrow band Imaging endoscopy</span>
+                                                                            </label>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td><textarea></textarea></td>
+                                                                    <td><textarea></textarea></td>
+                                                                </tr>
                                                             </tbody>
                                                         </table>
                                                     </div>
@@ -933,7 +1032,7 @@
                                                                         <textarea></textarea>
                                                                     </td>
                                                                 </tr>
-                                                                <tr>
+                                                                <tr class="prostate_row">
                                                                     <td>Prostate</td>
                                                                     <td>
                                                                         <ul>
@@ -963,10 +1062,13 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>Retinoblastoma</td>
+                                                                    <td>Oral</td>
                                                                     <td>
                                                                         <ul>
-                                                                            <li>Eye exam</li>
+                                                                            <li>Visual Screening</li>
+                                                                            <li>Imaging</li>
+                                                                            <li>Exfoliative Cytology</li>
+                                                                            <li>Incision biopsy</li>
                                                                         </ul>
                                                                     </td>
                                                                     <td>
@@ -976,6 +1078,23 @@
                                                                         <textarea></textarea>
                                                                     </td>
                                                                 </tr>
+                                                                <tr>
+                                                                    <td>Oesophageal</td>
+                                                                    <td>
+                                                                        <ul>
+                                                                            <li>White Light Endoscopy</li>
+                                                                            <li>Lugol’s chromoendoscopy</li>
+                                                                            <li>Narrow band Imaging endoscopy</li>
+                                                                        </ul>
+                                                                    </td>
+                                                                    <td>
+                                                                        <textarea></textarea>   
+                                                                    </td>
+                                                                    <td>
+                                                                        <textarea></textarea>
+                                                                    </td>
+                                                                </tr>
+
                                                             </tbody>
                                                         </table>
                                                     </div>
@@ -1107,3 +1226,17 @@
 
 </div>
 <!-- END MAIN PANEL -->
+
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#sex').on('change', function(){
+            var sex = $(this).val();
+            if(sex == 'female'){
+                $('.prostate_row').hide();
+            }else{
+                $('.prostate_row').show();
+            }
+        });
+    });
+</script>
